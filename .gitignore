@@ -1,0 +1,12 @@
+
+*.o
+*/*.o
+
+server/server
+mondo.db-journal
+
+client/client
+
+protocol/protocol_test
+
+.vscode
