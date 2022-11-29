@@ -9,16 +9,13 @@ The server contains 2 main processes:
   - This process creates an underlying socket for each ingoing socket
 
 # Tech Stack
-Librairies:
+Libraries:
 - Logger: https://github.com/rxi/log.c
 
-## To-do list
-- Envoi de messages par sockets X
-- Envoi d'images (png, gif, stickers)
-- Envoi de sondages
-- Encryption de bout en bout
-- Créer des groupes d'utilisateur
-- Mettre des réactions
-- Upload de fichiers (max 1MB)
-- Quand on se connecte, afficher le nom des personnes connectées X
-- transformer les url en qr-code
+## TODO
+- Send images
+- Send polls
+- Encrypt end to end
+- Add a reaction on a message
+- Upload files (max 1MB)
+- Send url as qr-codes
